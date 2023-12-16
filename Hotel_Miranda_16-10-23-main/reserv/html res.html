@@ -1,0 +1,87 @@
+
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+       
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Formulaire de réservation</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="csres.css">
+    </head>
+    <body>
+        
+        <section class = "banner">
+            
+            <div class = "card-container">
+                <div class = "card-img">
+                    <!-- image here -->
+                </div>
+
+                <div class = "card-content">
+                    <h3>Reservation</h3>
+                    <form>
+                        <div class = "form-row">
+                            <select name = "days">
+                                <option value = "day-select">Sélectionnez le jour</option>
+                                <option value = "sunday">Dimanche</option>
+                                <option value = "monday">lundi</option>
+                                <option value = "tuesday">Mardi</option>
+                                <option value = "wednesday">mercredi</option>
+                                <option value = "thursday">jeudi</option>
+                                <option value = "friday">vendredi</option>
+                                <option value = "saturday">samdi</option>
+                            </select>
+
+                            <select name = "hours">
+                                <option value = "hour-select">Sélectionnez l'heure</option>
+                                <option value = "10">10: 00</option>
+                                <option value = "10">12: 00</option>
+                                <option value = "10">14: 00</option>
+                                <option value = "10">16: 00</option>
+                                <option value = "10">18: 00</option>
+                                <option value = "10">20: 00</option>
+                                <option value = "10">22: 00</option>
+                            </select>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type = "text" placeholder="nom">
+                            <input type = "text" placeholder="Nom de jeune fille">
+                           </div>
+                        <div class = "form-row">
+                            <input type = "text" placeholder="prénoms">
+                            <input type = "text" placeholder="né(e) le">
+                            <input type = "text" placeholder="fils de">
+                            <input type = "text" placeholder="et de">
+                        </div >
+                        <div >
+                        <label class = "foorm-row">livret de famille</label>
+                        <label class = "fooorm-row">pices d'identite</label>
+                        </div>
+
+                        <div class = "form-row">
+                            <input type="file" id="livret de famille"  placeholder="prénoms" name="image" onchange="putImage()" />
+                           
+                            <input type="file" id="select_image" name="image" onchange="putImage()" />
+                            </div>
+                            
+                         <div class = "form-row">
+                            <input type = "text" placeholder="profession">
+                            <input type = "text" placeholder="adresse">
+                            </div>
+
+                            
+                        <div class = "form-row">
+                            <input type = "number" placeholder="How Many Persons?" min = "1">
+                            <input type = "submit"  value = "réserve">
+                            <a class = "jj" href="paiment/PAY.html">ajouter une carte</a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+    </body>
+</html>

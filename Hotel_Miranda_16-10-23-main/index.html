@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>syphax</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__header">
+          <div class="logo nav__logo">
+            <div><img class="logo" src="OIP.jpeg"></div>
+            <span>HOTEL<br />syphax</span>
+          </div>
+          <div class="nav__menu__btn" id="menu-btn">
+            <i class="ri-menu-line"></i>
+          </div>
+        </div>
+        <ul class="nav__links" id="nav-links">
+          <li><a href="login sign up/jll.html">account</a></li>
+          <li><a href="#about">a propos</a></li>
+          <li><a href="#room">Chambre</a></li>
+          <li><a href="#feature">offres</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#news">events</a></li>
+            <li><a href="login sign up/jll.html">chat box</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="header" id="home">
+      <div class="section__container header__container">
+        <p class="section__subheader">a propose a nous</p>
+        <h1>La base parfaite <br />pour vous</h1>
+        <button class="btn">Faire un tour</button>
+      </div>
+    </header>
+
+    <section class="booking">
+      <div class="section__container booking__container">
+        <form action="/">
+          <div class="input__group">
+            <label for="arrival">Date d'arrivée</label>
+            <input type="text" placeholder="Votre date d'arrivée" />
+          </div>
+          <div class="input__group">
+            <label for="departure">Date de départ</label>
+            <input type="text" placeholder="Votre date de départ" />
+          </div>
+          <div class="input__group">
+            <label for="guests">occupants</label>
+            <input type="text" placeholder="1 chambre,2 adultes,0 enfants" />
+          </div>
+          <button class="btn">Voir les disponibilités</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="section__container about__container">
+        <div class="about__grid">
+          <div class="about__image">
+            <img src="plage.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-user-line"></i></span>
+            <h4>Équipe forte</h4>
+            <p>
+             Déverrouiller l'excellence de l'hospitalité et assure votre séjour parfait
+            </p>
+          </div>
+          <div class="about__image">
+            <img src="picine.jpg" alt="about" />
+          </div>
+          <div class="about__card">
+            <span><i class="ri-calendar-check-line"></i></span>
+            <h4 class="ggg">Chambre de luxe</h4>
+            <p>Vivre un luxe inégalé dans nos chambres de luxe exquises</p>
+          </div>
+        </div>
+        <div class="about__content">
+          <p class="section__subheader">QUI SOMMES-NOUS ?</p>
+          <h2 class="section__header">Découvrez nos souterrains</h2>
+          <p class="section__description">
+            Complexe Hôtelier au bord de la plage de Tichy. L'Hôtel Syphax dispose de deux restaurants gastronomique, d'un spa et hammam, d'un centre de conditionnement physique, de deux piscines dont l'une est couverte et chauffée. En plus d'une grande salle de réception. L'hôtel Syphax est sécurisé et offre un espace de parking pouvant accueillir plus de 100 véhicules. Le repos pieds dans l'eau.
+          </p>
+          <button class="btn"><a class = "jj" href="reserv/html res.html">Reserve maintenant</a></button>
+        </div>
+      </div>
+    </section>
+
+    <section class="room__container" id="room">
+      <p class="section__subheader">PIÈCES</p>
+      <h2 class="section__header">Chambres cueillies à la main</h2>
+      <div class="room__grid">
+        <div class="room__card">
+          <img src="assets/room-2.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Suite de luxe</h4>
+              <p>Un espace élégant et confortable avec des équipements modernes, offrant une vue imprenable sur la ville. Profitez d'un séjour luxueux avec un lit king-size, un espace salon séparé et une salle de bain privée impeccablement aménagée.</p>
+            </div>
+            <h3>12000 DA<span>/nuit</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src=" assets/room-1.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Suite familiale</h4>
+              <p>un havre de confort et d'intimité au sein de notre hôtel. Avec des chambres distinctes pour les parents et les enfants, des lits douillets et une salle de séjour accueillante Elle promet une expérience mémorable pour toute la famille. </p>
+            </div>
+            <h3>8500 DA<span>/nuit</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="chambre famille.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>chambre single</h4>
+              <p>
+                Cette offre s'adresse aux personnes qui préfèrent bénéficier d'un certain confort psychologique
+              </p>
+            </div>
+            <h3>7000 DA<span>/nuit</span></h3>
+          </div>
+        </div>
+        <div class="room__card">
+          <img src="assets/room-3.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Lits supplimentaire</h4>
+              <p>
+                Cette offre s'adresse aux personnes qui préfèrent bénéficier d'un certain confort psychologique
+              </p>
+            </div>
+            <h3>3000 DA<span>/nuit</span></h3>
+          </div>
+        </div>
+
+        <div class="room__card">
+          <img src="kkk.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Suite Exécutive</h4>
+              <p>
+                La suite executive comprend également un salon privatif, décoré avec goût, où vous pourrez vous détendre dans un confort absolu. 
+              </p>
+            </div>
+            <h3>9000 DA<span>/nuit</span></h3>
+          </div>
+        </div>
+
+        <div class="room__card">
+          <img src="litssupplimentaire.jpg" alt="room" />
+          <div class="room__card__details">
+            <div>
+              <h4>Chambre Standard</h4>
+              <p>
+                une salle de bains bien aménagée, équipée de toutes les nécessités pour votre confort quotidien. L'éclairage doux et l'agencement pratique rendent l'espace accueillant et fonctionnel.
+              </p>
+            </div>
+            <h3>7000 DA<span>/nuit</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="intro">
+      <div class="section__container intro__container">
+        <div class="intro__cotent">
+          <p class="section__subheader">VIDÉO D'INTRODUCTION</p>
+          <h2 class="section__header">Rencontrez notre lieu de luxe</h2>
+          <p class="section__description">
+            Que vous recherchiez un refuge cosy et exclusif ou un lieu immersif
+            voyage sous la surface, l'Hôtel SYPHAX promet d'être un
+            séjour inoubliable, où les profondeurs du confort et de l'excitation vous attendent
+                       votre arrivée.
+          </p>
+          <button class="btn"><a class = "jj" href="reserv/html res.html">Reserve maintenant</a></button>
+        </div>
+        <div class="intro__video">
+          <video src="assets/luxury.mp4" autoplay muted loop></video>
+        </div>
+      </div>
+    </section>
+
+    <section class="section__container feature__container" id="feature">
+      <p class="section__subheader">INSTALLATIONS</p>
+      <h2 class="section__header">CARACTERISTIQUES DE BASE</h2>
+      <div class="feature__grid">
+        <div class="feature__card">
+          <span><i class="ri-thumb-up-line"></i></span>
+          <h4>Avoir une note élevée</h4>
+          <p>
+            Nous sommes fiers de proposer une sélection d'hôtels qui reçoivent régulièrement des notes élevées et des critiques positives.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-time-line"></i></span>
+          <h4>Heures calmes</h4>
+          <p>
+            Nous comprenons que la paix et un repos ininterrompu sont essentiels pour un
+             expérience rajeunissante.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-map-pin-line"></i></span>
+          <h4>Meilleur emplacement</h4>
+          <p>
+            Sur notre site de réservation d'hôtels, nous sommes fiers d'offrir
+            des hébergements dans les endroits les plus privilégiés et les plus recherchés.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-close-circle-line"></i></span>
+          <h4>offre de Cancellations</h4>
+          <p>
+            Nous comprenons que les projets de voyage peuvent changer de manière inattendue, ce qui est
+            pourquoi nous offrons la flexibilité de l’annulation par des offres.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-wallet-line"></i></span>
+          <h4>Options de paiement</h4>
+          <p>
+            Notre site de réservation d'hôtel propose une gamme de modes de paiement pratiques
+            options adaptées à vos préférences.
+          </p>
+        </div>
+        <div class="feature__card">
+          <span><i class="ri-coupon-line"></i></span>
+          <h4>Offres spéciales</h4>
+          <p>
+            Que vous planifiiez une escapade romantique ou un voyage d'affaires, notre
+            des offres spéciales soigneusement sélectionnées répondent à tous vos besoins.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <div class="section__container menu__container">
+        <div class="menu__header">
+          <div>
+            <p class="section__subheader">MENU</p>
+            <h2 class="section__header">Notre menu alimentaire</h2>
+          </div>
+          <div class="section__nav">
+            <span><i class="ri-arrow-left-line"></i></span>
+            <span><i class="ri-arrow-right-line"></i></span>
+          </div>
+        </div>
+        <ul class="menu__items">
+          <li>
+            <img src="plat1.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4 class="gg">Saumon en trois façons</h4>
+              <p>
+                Il s’agit d’une innovation culinaire qui donne une touche unique à la combinaison bien-aimée du petit-déjeuner.
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="plat2.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4 class="gg">Filet de barbue Dugléré</h4>
+              <p>
+                
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="plat3.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4 class="gg">Tagine de poulet à la coriandre</h4>
+              <p>
+              
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="plat4.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4 class="gg">Carré de porc poêlé Choisy</h4>
+              <p>
+      
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="plat5.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4>Salade tiède de bar et écrevisses à l'huile de noisettes</h4>
+              <p>
+                
+              </p>
+            </div>
+          </li>
+          <li>
+            <img src="plat6.jpeg" alt="menu" />
+            <div class="menu__details">
+              <h4>Tronçons de turbot pochés sauce hollandaise</h4>
+              <p>
+               
+              </p>
+            </div>
+          </li>
+        </ul>
+        <div class="menu__images">
+          <img src="assets/menu-7.jpg" alt="menu" />
+          <img src="assets/menu-8.jpg" alt="menu" />
+          <img src="assets/menu-9.jpg" alt="menu" />
+        </div>
+        <ul class="menu__banner">
+          <li>
+            <span><i class="ri-file-text-line"></i></span>
+            <h4>84k</h4>
+            <p>Les projets sont terminés</p>
+          </li>
+          <li>
+            <span><i class="ri-user-line"></i></span>
+            <h4>10M</h4>
+            <p>Nombre de visiteurs par an</p>
+          </li>
+          <li>
+            <span><i class="ri-function-line"></i></span>
+            <h4>02k</h4>
+            <p>Catégories servies</p>
+          </li>
+          <li>
+            <span><i class="ri-lightbulb-flash-line"></i></span>
+            <h4>100M</h4>
+            <p>Des idées ont levé des fonds</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section__container news__container" id="news">
+      <div class="news__header">
+        <div>
+          <p class="section__subheader">BLOG</p>
+          <h2 class="section__header">Fil d'actualité</h2>
+        </div>
+        <div class="section__nav">
+          <span><i class="ri-arrow-left-line"></i></span>
+          <span><i class="ri-arrow-right-line"></i></span>
+        </div>
+      </div>
+      <div class="news__grid">
+        <div class="news__card">
+          <img src="imgg.jpeg" alt="news" />
+          <div class="news__card__title">
+            <p>25 mars 2022</p>
+            <p>Par mohamed</p>
+          </div>
+          <h4>Explorer les joyaux culinaires locaux : un guide gastronomique.</h4>
+          <p>
+            Rejoignez Emily alors qu'elle vous emmène dans une aventure gastronomique à travers le
+            quartier entourant notre hôtel.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="fff.jpeg" alt="news" />
+          <div class="news__card__title">
+            <p>15 juin 2022</p>
+            <p>Par sidahmed</p>
+          </div>
+          <h4>Équilibrer l'esprit, le corps et l'âme dans notre hôtel.</h4>
+          <p>
+            Découvrez des soins de spa holistiques, des installations de remise en forme et
+            des pratiques de pleine conscience qui vous rafraîchiront.
+          </p>
+        </div>
+        <div class="news__card">
+          <img src="picine.jpg" alt="news" />
+          <div class="news__card__title">
+            <p>08 Aout 2022</p>
+            <p>Par Sarah</p>
+          </div>
+          <h4>Explorer les activités de plein air à proximité de notre hôtel.</h4>
+          <p>
+            Des sentiers de randonnée et pistes cyclables aux sports nautiques et à la faune
+            rencontres, elle met en lumière les façons de découvrir les merveilles de la nature.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="section__container footer__container">
+        <div class="footer__col">
+          <div class="logo footer__logo">
+            <div>S</div>
+            <span>HOTEL<br />SYPHAX</span>
+          </div>
+          <p class="section__description">
+            L'hôtel vous offre une bonne salutation et un bon succès dans le choix
+          </p>
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="ri-youtube-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-instagram-line"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-facebook-fill"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="ri-linkedin-fill"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer__col">
+          <h4>Services</h4>
+          <div class="footer__links">
+            <li><a href="reserv/html res.html">Reservation en ligne</a></li>
+            <li><a href="#">Personnalisation de la salle</a></li>
+            <li><a href="#">Visites virtuelles</a></li>
+            <li><a href="#">Special Offers</a></li>
+            <li><a href="#">Conciergerie</a></li>
+            <li><a href="#">Service client</a></li>
+          </div>
+        </div>
+        <div class="footer__col">
+          <h4>Contactez-nous</h4>
+          <div class="footer__links">
+            <li>
+              <span><i class="ri-phone-fill"></i></span>
+              <div>
+                <h5>Numéro de téléphone</h5>
+                <p>+213794873773</p>
+              </div>
+            </li>
+            <li>
+              <span><i class="ri-record-mail-line"></i></span>
+              <div>
+                <h5>Email</h5>
+                <p>info@hotelsyphax.com</p>
+              </div>
+            </li>
+            <li>
+              <span><i class="ri-map-pin-2-fill"></i></span>
+              <div>
+                <h5>Location</h5>
+                <p>hotel syphax ,tichy</p>
+              </div>
+            </li>
+          </div>
+        </div>
+      </div>
+     
+    </footer>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
